@@ -1,6 +1,6 @@
 
 import { IconAttributes } from "../../utils/types";
-export const IconCross = ({ size = 24, stroke = 1.5, className }: IconAttributes) => {
+export const IconCross = ({ size = 24, className }: IconAttributes) => {
   const width = Math.round(size * (19 / 19));
   return (
     <svg

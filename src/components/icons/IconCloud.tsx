@@ -1,7 +1,6 @@
 import { IconAttributes } from "../../utils/types";
 export const IconCloud = ({
   size = 24,
-  stroke = 1.5,
   className,
 }: IconAttributes) => {
   const width = Math.round(size * (20 / 20));

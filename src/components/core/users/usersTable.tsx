@@ -88,8 +88,8 @@ function UsersTable() {
               </>
             ) : (
               <>
-                {users.length ? (
-                  users.map(
+                {users?.length ? (
+                  users?.map(
                     (user: {
                       id: string;
                       fullName: string;
